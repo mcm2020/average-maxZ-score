@@ -25,7 +25,7 @@ maxz [-h/--help] -a/--alignment ALIGNMENT -s {protein,nucleotide} -m/--matrix MA
 #### -h/--help *(optional)*
 - show help message and exit.
 
-### -a/--alignment ALIGNMENT
+#### -a/--alignment ALIGNMENT
 - Enter alignment file.
 
 - NOTE: Make sure file follows FASTA formatting.
