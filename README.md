@@ -1,5 +1,6 @@
 # Average MaxZ Score Calculator
 Input: Multiple Sequence Alignment (MSA) in FASTA file format.
+
 Output: Average maxZ score of the MSA.
 
 Useful for the rank ordering of a defined group of MSA's. 
@@ -29,7 +30,7 @@ Enter alignment file.
 #### -s/--symbol {protein,nucleotide}
 Enter type of alignment being inputted.
 
-#### -m MATRIX, --matrix MATRIX
+#### -m/--matrix MATRIX
 Select similarity matrix.
 **PRESETS:** blosum62, blosum90, blosum100, pam100, pam250, binary.
 **NOTE:** If a preset is not chosen the program will assume you are loading a file. Make sure the file you load follows the standard format set by PAM and BLOSUM.
