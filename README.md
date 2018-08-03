@@ -27,23 +27,34 @@ show help message and exit.
 #### -a/--alignment ALIGNMENT
 Enter alignment file.
 
+**NOTE:** Make sure file follows FASTA formatting.
+
 #### -s/--symbol {protein,nucleotide}
 Enter type of alignment being inputted.
 
 #### -m/--matrix MATRIX
 Select similarity matrix.
+
 **PRESETS:** blosum62, blosum90, blosum100, pam100, pam250, binary.
+
 **NOTE:** If a preset is not chosen the program will assume you are loading a file. Make sure the file you load follows the standard format set by PAM and BLOSUM.
+
 **NOTE:** Binary matrices ignore any similarities among disparate symbols.
+
 **NOTE:** Nucelotide alignments that are not converted must use a binary matrix.
 
 #### -d/--distribution DISTRIBUTION
 Select sequences to define the background distribution.
+
 **PRESETS: self, swiss-prot
+
 **NOTE:** If a preset is not chosen the program will assume you are loading a file. Make sure any file you load follows FASTA formatting and is of the same symbol type (protein or nucleotide).
+
 **NOTE:** If self is chosen the sequences of the inputted alignment file will be used
 
 #### -c/--convert {yes,no}
 Convert nucleotide alignment to protein alignment?
+
 **NOTE:** Sequences in alignment must be of equal length to convert.
+
 **NOTE:** First open reading frame is used for conversion.
