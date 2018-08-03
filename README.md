@@ -1,7 +1,7 @@
 # Average MaxZ Score Calculator
-Input: Multiple Sequence Alignment (MSA) in FASTA file format.
+**Input:** Multiple Sequence Alignment (MSA) in FASTA file format.
 
-Output: Average maxZ score of the MSA.
+**Output:** Average maxZ score of the MSA.
 
 Useful for the rank ordering of a defined group of MSA's. 
 
