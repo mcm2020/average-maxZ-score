@@ -21,8 +21,8 @@ The maximum Z-score is a statistical measure for positional conservation [(Ahola
 maxz [-h/--help] -a/--alignment ALIGNMENT -s {protein,nucleotide} -m/--matrix MATRIX -d/--distribution DISTRIBUTION -c/--convert {yes,no}
 ```
 
-## Arguments
-### -h/--help *(optional)*
+### Arguments
+#### -h/--help *(optional)*
 - show help message and exit.
 
 ### -a/--alignment ALIGNMENT
@@ -30,10 +30,10 @@ maxz [-h/--help] -a/--alignment ALIGNMENT -s {protein,nucleotide} -m/--matrix MA
 
 - NOTE: Make sure file follows FASTA formatting.
 
-### -s/--symbol {protein,nucleotide}
+#### -s/--symbol {protein,nucleotide}
 - Enter type of alignment being inputted.
 
-### -m/--matrix MATRIX
+#### -m/--matrix MATRIX
 - Select similarity matrix.
 
 - PRESETS: blosum62, blosum90, blosum100, pam100, pam250, binary.
@@ -44,7 +44,7 @@ maxz [-h/--help] -a/--alignment ALIGNMENT -s {protein,nucleotide} -m/--matrix MA
 
 - NOTE: Nucelotide alignments that are not converted must use a binary matrix.
 
-### -d/--distribution DISTRIBUTION
+#### -d/--distribution DISTRIBUTION
 - Select sequences to define the background distribution.
 
 - PRESETS: self, swiss-prot
@@ -53,7 +53,7 @@ maxz [-h/--help] -a/--alignment ALIGNMENT -s {protein,nucleotide} -m/--matrix MA
 
 - NOTE: If self is chosen the sequences of the inputted alignment file will be used
 
-### -c/--convert {yes,no}
+#### -c/--convert {yes,no}
 - Convert nucleotide alignment to protein alignment?
 
 - NOTE: Sequences in alignment must be of equal length to convert.
