@@ -18,7 +18,7 @@ Ahola, V., Aittokallio, T., Vihinen, M., & Uusipaikka, E. (2006). A statistical 
 
 ## Usage
 ```
-maxz \[-h/--help] -a/--alignment \[ALIGNMENT] -s {protein,nucleotide} -m/--matrix \[MATRIX] -d/--distribution \[DISTRIBUTION] -c/--convert {yes,no}
+maxz \[-h/--help\] -a/--alignment \[ALIGNMENT\] -s {protein,nucleotide} -m/--matrix \[MATRIX\] -d/--distribution \[DISTRIBUTION\] -c/--convert {yes,no}
 ```
 ### Arguments
 ```-h/--help```
