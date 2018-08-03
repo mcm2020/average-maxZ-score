@@ -22,7 +22,7 @@ maxz [-h/--help] -a/--alignment ALIGNMENT -s {protein,nucleotide} -m/--matrix MA
 ```
 ### Arguments
 #### -h/--help *(optional)*
-   show help message and exit.
+   -show help message and exit.
 
 #### -a/--alignment ALIGNMENT
    Enter alignment file.
