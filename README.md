@@ -17,10 +17,11 @@ The maximum Z-score is a statistical measure for positional conservation [(Ahola
 
 ## Usage
 ```
-maxz `[-h/--help]` -a/--alignment [ALIGNMENT] -s {protein,nucleotide} -m/--matrix [MATRIX] -d/--distribution [DISTRIBUTION] -c/--convert {yes,no}
+maxz [-h/--help] -a/--alignment ALIGNMENT -s {protein,nucleotide} -m/--matrix MATRIX -d/--distribution DISTRIBUTION -c/--convert {yes,no}
 ```
 ### Arguments
 ```-h/--help```
+
 show help message and exit
 ```-a/--alignment ALIGNMENT```
 Enter alignment file.
