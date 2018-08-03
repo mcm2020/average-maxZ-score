@@ -5,9 +5,8 @@ Output: Average maxZ score of the MSA.
 Useful for the rank ordering of a defined group of MSA's. 
 
 The maximum Z-score is a statistical measure for positional conservation [(Ahola, Aittokallio, Vinhinen, & Uusipaikka, 2006)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-7-484).
-```
-Ahola, V., Aittokallio, T., Vihinen, M., & Uusipaikka, E. (2006). A statistical score for assessing the quality of multiple sequence alignments. BMC Bioinformatics, 7(1), 484. doi:10.1186/1471-2105-7-484
-```
+
+*Ahola, V., Aittokallio, T., Vihinen, M., & Uusipaikka, E. (2006). A statistical score for assessing the quality of multiple sequence alignments. BMC Bioinformatics, 7(1), 484. doi:10.1186/1471-2105-7-484*
 
 ## Installation
 ### To Install: 
@@ -18,7 +17,7 @@ Ahola, V., Aittokallio, T., Vihinen, M., & Uusipaikka, E. (2006). A statistical 
 
 ## Usage
 ```
-maxz \[-h/--help\] -a/--alignment \[ALIGNMENT\] -s {protein,nucleotide} -m/--matrix \[MATRIX\] -d/--distribution \[DISTRIBUTION\] -c/--convert {yes,no}
+maxz `[-h/--help]` -a/--alignment [ALIGNMENT] -s {protein,nucleotide} -m/--matrix [MATRIX] -d/--distribution [DISTRIBUTION] -c/--convert {yes,no}
 ```
 ### Arguments
 ```-h/--help```
