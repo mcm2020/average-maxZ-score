@@ -4,7 +4,7 @@ import numpy as np
 import re
 from string import maketrans
 
-# GLOBAL VARIABLES -------------------------------------------------------------
+# GLOBAL CONSTANTS -------------------------------------------------------------
 nucleotide_bases = ['A','C','G','T']
 nb_indexed = {nb: i for i, nb in enumerate(nucleotide_bases)}
 
