@@ -3,9 +3,9 @@
 
 **Output:** Average maxZ score of the MSA.
 
-A statistical measure for gauging the polymorphic extent of sequences in a multiple sequence alignment. Useful for the rank ordering of a defined group of MSA's. 
+Calculates the average maxZ score across all the positions of a multiple sequence alignment, resulting in a statistic which gauges the polymorphic extent of the sequences in the alignment. The score may be useful for the rank ordering of a defined group of MSA's. 
 
-The maximum Z-score is [a statistical measure which quantifies the degree of conservation at a given alignment position (Ahola, Aittokallio, Vinhinen, & Uusipaikka, 2006)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-7-484).
+The maxZ score is [a statistical measure which quantifies the degree of conservation at a given alignment position (Ahola, Aittokallio, Vinhinen, & Uusipaikka, 2006)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-7-484).
 
 *Ahola, V., Aittokallio, T., Vihinen, M., & Uusipaikka, E. (2006). A statistical score for assessing the quality of multiple sequence alignments. BMC Bioinformatics, 7(1), 484. doi:10.1186/1471-2105-7-484*
 
