@@ -11,7 +11,8 @@ The maxZ score is [a statistical measure which quantifies the degree of conserva
 
 ## Installation
 ### To Install: 
-In the same directory that setup.py exists, type:
+In the same directory that setup.py exists in, type:
+
 ```pip install .```
 
 ### To Uninstall: 
